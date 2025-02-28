@@ -1,0 +1,619 @@
+/* General Styling for Counter Title */
+.mobile-count .elementor-counter-title {
+  text-align: center !important;
+}
+
+/* Hiding the Stars for Testimonials */
+.testimonial-img-upeer .elementskit-commentor-content .elementskit-stars {
+  display: none !important;
+}
+
+/* Styling for Swiper Navigation Buttons */
+.testimonial-img-upeer .swiper-navigation-button {
+  background-color: aliceblue !important;
+  border-radius: 50% !important;
+}
+
+/* Swiper Navigation Button Icons */
+.swiper-button-next:after, 
+.swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: medium !important;
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+}
+
+/* Gradient Text Styling */
+.contect_cool_font {
+  background: -webkit-linear-gradient(#7590FF, #465699);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Mobile Counter Font Size */
+.mobile-count .elementor-counter .elementor-counter-number,
+.mobile-count .elementor-counter .elementor-counter-number-prefix,
+.mobile-count .elementor-counter .elementor-counter-number-suffix {
+  font-size: 50% !important;
+}
+
+/* Form Styling */
+.wpcf7-form {
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Label Styling */
+.wpcf7-form label {
+  font-size: 14px !important;
+  color: #333 !important;
+  margin-bottom: 10px !important;
+  display: block !important;
+}
+
+/* Interested Text Styling */
+.wpcf7-form .interested-txt {
+  color: #767676 !important; 
+  font-size: medium !important;
+  margin-top: 5% !important;
+}
+
+/* Custom Input Styling */
+.custom-input {
+  width: 100% !important;
+  padding: 12px !important;
+  font-size: 16px !important;
+  color: #333 !important;
+  border: none !important;
+  border-bottom: 2px solid #ddd !important;
+  outline: none !important;
+  margin-bottom: 15px !important;
+  -webkit-transition: border-color 0.3s ease !important;
+  -o-transition: border-color 0.3s ease !important;
+  transition: border-color 0.3s ease !important;
+}
+
+/* Focus Effect for Custom Inputs */
+.custom-input:focus {
+  border-bottom: 2px solid #007bff !important;
+}
+
+/* Submit Button Styling */
+.custom-submit {
+  display: inline-block !important;
+  background: -o-linear-gradient(45deg, #4b6cb7, #182848) !important;
+  background: linear-gradient(45deg, #4b6cb7, #182848) !important;
+  color: #fff !important;
+  padding: 10px 20px !important;
+  border: none !important;
+  border-radius: 25px !important;
+  font-size: 16px !important;
+  cursor: pointer !important;
+  -webkit-transition: background 0.3s ease !important;
+  -o-transition: background 0.3s ease !important;
+  transition: background 0.3s ease !important;
+}
+
+/* Hover Effect for Submit Button */
+.custom-submit:hover {
+  background: -o-linear-gradient(45deg, #3a56a1, #141e3c) !important;
+  background: linear-gradient(45deg, #3a56a1, #141e3c) !important;
+}
+
+/* Custom Checkbox Styling */
+.custom-checkbox-group input[type="checkbox"] {
+  display: none;
+}
+
+.portfolio-project-list .ekit-wid-con .row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.custom-checkbox-group .wpcf7-list-item-label {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px solid #9C9C9C !important; 
+  color: #2A2A2A !important;
+  border-radius: 20px; 
+  background-color: transparent; 
+  -webkit-transition: border-color 0.3s, color 0.3s, background-color 0.3s; 
+  -o-transition: border-color 0.3s, color 0.3s, background-color 0.3s; 
+  transition: border-color 0.3s, color 0.3s, background-color 0.3s; 
+  cursor: pointer;
+  font-size: 15px !important;
+}
+
+.custom-checkbox-group .wpcf7-form-control-wrap .wpcf7-list-item {
+  margin: 0% !important;
+  margin-right: 2% !important;
+  margin-top: 2% !important;
+}
+
+.custom-checkbox-group .wpcf7-list-item-label:not(.active):hover {
+  border-color: darkgray;
+}
+
+.custom-checkbox-group .wpcf7-list-item-label.active {
+  border: 2px solid !important;
+  color: #465699 !important;
+  background: -o-linear-gradient(left, #7590ff24, #3f55df1c) !important;
+  background: -webkit-gradient(linear, left top, right top, from(#7590ff24), to(#3f55df1c)) !important;
+  background: linear-gradient(to right, #7590ff24, #3f55df1c) !important;
+}
+
+/* Submit Button Styling */
+.wpcf7-form  [type=submit] {
+  border-radius: 100px !important;
+  padding: 0.5rem 2.5rem !important;
+  color: #ffffff !important;
+  background: -o-linear-gradient(left, #9cb5fe, #749bff) !important;
+  background: -webkit-gradient(linear, left top, right top, from(#9cb5fe), to(#749bff)) !important;
+  background: linear-gradient(90deg, #9cb5fe, #749bff) !important;
+  border: none !important;
+  border-radius: 50px !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out !important;
+  transition: -webkit-transform 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out !important;
+  -o-transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out !important;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out !important;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out !important;
+}
+
+/* Hover Effect for Submit Button */
+.wpcf7-form  [type=submit]:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05); /* Slightly larger on hover */
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+/* Focus Effect for Submit Button */
+.wpcf7-form  [type=submit]:focus {
+  padding: .5rem 3rem !important;
+  color: #ffffff !important;
+  border: 2px solid !important;
+  border-color: #465699 !important;
+  border-radius: 100px !important;
+  background-color: #7591ffad !important;
+}
+
+/* FAQ Accordion Number Styling */
+.faq-accordion .number {
+  margin-right: 4% !important;
+}
+
+/* General Styling for Social Icons */
+.elementor-widget-social-icons .elementor-social-icons-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.elementor-widget-social-icons .elementor-social-icons-wrapper .elementor-grid-item {
+  display: inline-block;
+}
+
+section#comments {
+  display: none;
+}
+
+.elementor-widget-social-icons .elementor-social-icons-wrapper .elementor-grid-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 48px;
+  height: 48px;
+  background-color: #7590FF;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.elementor-widget-social-icons .elementor-social-icons-wrapper .elementor-grid-item a:hover {
+  background-color: #465699;
+}
+
+/* Sidebar and Off-canvas menu styles */
+.ekit-offcanvas-toggle-wraper.before {
+    position: relative;
+}
+
+.ekit_navSidebar-button {
+    display: inline-block;
+    font-size: 24px;
+    color: #000;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.ekit_navSidebar-button:hover {
+    color: #7590FF; /* Hover color */
+}
+
+.ekit-sidebar-group.info-group {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    z-index: 9999;
+    display: none;
+}
+
+.ekit-sidebar-group.info-group.ekit_isActive {
+    display: block;
+}
+
+.ekit-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9998;
+}
+
+.ekit-sidebar-widget {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  padding: 20px;
+  z-index: 10000;
+  overflow-y: auto;
+  max-width: 320px;
+  width: 100%;
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.ekit-sidebar-group.ekit_isActive .ekit-sidebar-widget {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.ekit_widget-heading.before {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.ekit_close-side-widget {
+  font-size: 24px;
+  color: #000;
+  cursor: pointer;
+}
+
+.ekit_close-side-widget:hover {
+  color: #7590FF; /* Hover color */
+}
+
+/* Logo Styles */
+.elementor-widget-image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Navigation Menu Styles */
+.elementor-icon-list-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.elementor-icon-list-items .elementor-icon-list-item {
+  margin-bottom: 20px;
+}
+
+.elementor-icon-list-items .elementor-icon-list-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.elementor-icon-list-items .elementor-icon-list-item a:hover {
+  color: #7590FF; /* Hover color */
+}
+
+.elementor-icon-list-items .elementor-icon-list-item a .elementor-icon-list-text {
+  margin-left: 10px;
+}
+
+/* Social Icons */
+.elementor-social-icons-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 20px;
+}
+
+.elementor-social-icons-wrapper .elementor-grid-item {
+  display: inline-block;
+}
+
+.elementor-social-icons-wrapper .elementor-social-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #7590FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 18px;
+  -webkit-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.elementor-social-icons-wrapper .elementor-social-icon:hover {
+  background-color: #0056b3; /* Hover color */
+}
+
+.project-section .elementskit-commentor-content>p {
+  text-align: justify !important;
+  margin: 12px !important;
+}
+
+.ekit-canvas-menu .ekit-sidebar-widget {
+  height: -webkit-fit-content !important;
+  height: -moz-fit-content !important;
+  height: fit-content !important;
+  border-radius: 10px !important;
+}
+
+.ekit-canvas-menu .elementor-widget-container .ekit_isActive .ekit-sidebar-widget {
+  margin-left: 5% !important; 
+  margin-top: 4% !important;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+}
+
+.ekit-canvas-menu .ekit-offcanvas-toggle-wraper a {
+  margin: 0px !important;
+}
+
+.elementor-588 .elementor-element.elementor-element-29ea1cba .elementskit-navbar-nav > li.current-menu-item > a {
+  color: #181818 !important;
+  border-bottom: 2px solid #818CF2 !important;
+}
+
+.service-icon-box .elementskit-infobox {
+  overflow: visible !important;
+} 
+
+.service-icon-box .elementskit-infobox .elementskit-box-header {
+  margin-left: -12% !important;
+} 
+
+#before-footer-Contact-Us-button .ekit-wid-con .Contact_Us_btn {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+} 
+
+/* Tablet and Below Styles (Max-width: 1024px) */
+@media (max-width: 1024px) {
+  /* Hide menu overlay */
+  .main-header-home-manu .elementskit-menu-overlay {
+    display: none !important; 
+  }
+
+  /* Focus and hover states for buttons */
+  .main-header-home-manu [type=button]:focus,
+  .main-header-home-manu [type=button]:hover {
+    color: #fff;
+    background-color: #7591ffad;
+    text-decoration: none;
+  }
+
+  /* Footer Social Icons */
+  .footer-social-icon .elementor-social-icons-wrapper .elementor-grid-item {
+    display: inline-block !important; /* Ensure all icons are visible */
+    opacity: 1 !important; /* Ensure icons are visible */
+    pointer-events: auto !important; /* Allow click functionality */
+  }
+
+  /* Canvas menu background transparency */
+  .ekit-canvas-menu .ekit-bg-black {
+    background-color: rgb(0 0 0 / 0%) !important;
+  }
+
+  .elementor-widget-social-icons .elementor-social-icons-wrapper {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  
+  .elementor-widget-social-icons .elementor-social-icons-wrapper .elementor-grid-item {
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .elementor-widget-social-icons .elementor-social-icons-wrapper .elementor-grid-item a {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Ensure that the icons are clickable */
+  .elementor-widget-social-icons .elementor-social-icons-wrapper .elementor-grid-item a:focus {
+    opacity: 0.8;
+  }
+}
+
+/* Mobile Styles (Max-width: 767px) */
+@media (max-width: 767px) {
+  .icon-animation .lgx_app_item_img {
+    max-width: 60% !important;
+    max-height: 60% !important;
+  }
+  /* Align footer contact icons vertically */
+  .footer-contact .elementor-icon-list-items {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+
+  /* First icon margin adjustment */
+  .footer-contact .elementor-icon-list-item:first-child {
+    margin-right: 3%;
+  }
+
+  /* Hide menu overlay */
+  .main-header-home-manu .elementskit-menu-overlay {
+    display: none !important; 
+  }
+
+  /* Canvas menu background transparency */
+  .ekit-canvas-menu .ekit-bg-black {
+    background-color: rgb(0 0 0 / 0%) !important;
+  }
+
+  /* Focus and hover states for buttons */
+  .main-header-home-manu [type=button]:focus,
+  .main-header-home-manu [type=button]:hover {
+    color: #fff;
+    background-color: #7591ffad;
+    text-decoration: none;
+  }
+
+  /* Social icons adjustments for smaller screens */
+  .footer-social-icon .elementor-social-icons-wrapper .elementor-grid-item a {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .footer-social-icon .elementor-social-icons-wrapper .elementor-grid-item a svg {
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .elementor-widget-social-icons .elementor-social-icons-wrapper {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: flex-start !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .elementor-widget-social-icons .elementor-social-icons-wrapper .elementor-grid-item a {
+    width: 35px;
+    height: 35px;
+  }
+
+  .ekit-sidebar-widget {
+    padding: 10px;
+  }
+
+  .elementor-widget-image img {
+    width: 100%;
+  }
+
+  .elementor-icon-list-items .elementor-icon-list-item {
+    font-size: 16px;
+  }
+
+  .elementor-social-icons-wrapper .elementor-social-icon {
+      width: 30px !important;
+      height: 30px !important;
+      font-size: 14px;
+  }
+
+  .about-us-team .swiper-slide .swiper-slide-inner .elementskit-single-testimonial-slider {
+    height: 65em !important;
+  }
+
+  .about-us-team .ekit-wid-con .elementskit-profile-image-card:hover::before {
+    background-color: rgb(0 0 0 / 0%);
+    top: 0;
+  }
+}
+
+/* Very Small Devices Styles (Max-width: 480px) */
+@media (max-width: 480px) {
+  .elementor-widget-social-icons .elementor-social-icons-wrapper .elementor-grid-item a {
+    width: 30px;
+    height: 30px;
+  }
+  .about-us-team .swiper-slide .swiper-slide-inner .elementskit-single-testimonial-slider {
+    height: 73em !important;
+  }
+  
+}
+
+/*snow effect*/
+
+.ekit-wid-con svg {
+  width: unset !important;
+  height: unset !important;
+}
+
+.snowverlay, .count-snowverlay, .testimonial-snowverlay {
+  position: absolute;  
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}

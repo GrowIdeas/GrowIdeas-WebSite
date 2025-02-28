@@ -1,0 +1,234 @@
+
+/* testimonial Display section css start */
+#testimonial-section {   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
+    display: flex;   
+    -ms-flex-pack: distribute;   
+        justify-content: space-around;   
+    margin-top: 5%;  
+    -ms-flex-wrap: wrap;  
+        flex-wrap: wrap; 
+}
+
+#testimonial-section .testimonial-card {   
+    display: none; 
+}
+
+#testimonial-section .testimonial-card.active {   
+    display: block;   
+    position: relative;   
+    width: 50%;   
+    padding: 20px 20px;   
+    text-align: center;   
+    background-color: #ffffff;   
+    border-radius: 20px;   
+    -webkit-box-shadow:      
+        inset rgba(0, 0, 0, 0.1) 0px -10px 0px,      
+        inset rgba(0, 0, 0, 0.2) 0px -5px 0px,       
+        inset rgba(0, 0, 0, 0.3) 0px -3px 0px,       
+        inset rgba(0, 0, 0, 0.1) 0px 10px 0px,       
+        inset rgba(0, 0, 0, 0.2) 0px 5px 0px,        
+        inset rgba(0, 0, 0, 0.3) 0px 3px 0px;   
+            box-shadow:      
+        inset rgba(0, 0, 0, 0.1) 0px -10px 0px,      
+        inset rgba(0, 0, 0, 0.2) 0px -5px 0px,       
+        inset rgba(0, 0, 0, 0.3) 0px -3px 0px,       
+        inset rgba(0, 0, 0, 0.1) 0px 10px 0px,       
+        inset rgba(0, 0, 0, 0.2) 0px 5px 0px,        
+        inset rgba(0, 0, 0, 0.3) 0px 3px 0px;    
+}
+
+#testimonial-section .testimonial-photo {   
+    position: absolute;   
+    top: -40px;   
+    left: 50%;   
+    -webkit-transform: translateX(-50%);   
+        -ms-transform: translateX(-50%);   
+            transform: translateX(-50%);   
+    width: 80px;   
+    height: 80px;   
+    border-radius: 50%;   
+    overflow: hidden;   
+    border: 3px solid #fff;   
+    -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);   
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+#testimonial-section .testimonial-photo img {   
+    width: 100%;   
+    height: 100%;   
+    -o-object-fit: cover;   
+       object-fit: cover;   
+    background: #fff; 
+}
+
+#testimonial-section h3 {   
+    margin-top: 30px;   
+    font-size: 18px;   
+    font-weight: bold;   
+    color: #333; 
+}
+
+#testimonial-section .role {   
+    font-size: 14px;   
+    color: #666;   
+    margin-bottom: 15px; 
+}
+
+#testimonial-section .testimonial-text {   
+    font-size: 16px;   
+    line-height: 1.6;   
+    color: #555; 
+}
+
+#testimonial-section .testimonial-navigation {   
+    font-size: 24px;   
+    color: #333;   
+    cursor: pointer;   
+    padding: 10px;   
+    background-color: #ffffff;   
+    border-radius: 50%;   
+    -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);   
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);   
+    margin: 0 10px; 
+}
+
+#testimonial-section .testimonial-navigation:hover {   
+    background-color: #f0f0f0; 
+}
+
+#testimonial-section .prev, 
+#testimonial-section .next {
+    position: relative;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: -webkit-center;
+    vertical-align: middle;
+    padding: 6px;
+    margin-top: 10%;
+}
+
+/* -------- Media Queries for Responsive Design -------- */
+
+/* Tablet (1024px and below) */
+@media (max-width: 1024px) {
+    #testimonial-section {
+        -webkit-box-orient: inherit;
+        -webkit-box-direction: inherit;
+            -ms-flex-direction: inherit;
+                flex-direction: inherit;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    }
+
+    #testimonial-section .testimonial-card.active {
+        width: 70%; 
+        padding: 15px; 
+    }
+
+    #testimonial-section .testimonial-photo {
+        width: 70px;
+        height: 70px;
+    }
+
+    #testimonial-section h3 {
+        font-size: 16px; 
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    #testimonial-section .role {
+        font-size: 12px; 
+    }
+
+    #testimonial-section .testimonial-text {
+        font-size: 14px; 
+    }
+
+    #testimonial-section .testimonial-navigation {
+        font-size: 20px; 
+        padding: 8px;
+    }
+}
+
+/* Mobile (768px and below) */
+@media (max-width: 768px) {
+    #testimonial-section {
+        -webkit-box-orient: inherit;
+        -webkit-box-direction: inherit;
+            -ms-flex-direction: inherit;
+                flex-direction: inherit;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    }
+
+    #testimonial-section .testimonial-card.active {
+        width: 65%;
+        padding: 12px;
+    }
+
+    #testimonial-section .testimonial-photo {
+        width: 60px;
+        height: 60px;
+    }
+
+    #testimonial-section h3 {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 2px;
+    }
+
+    #testimonial-section .role {
+        font-size: 12px;
+    }
+
+    #testimonial-section .testimonial-text {
+        font-size: 14px;
+    }
+
+    #testimonial-section .testimonial-navigation {
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    /* Adjust prev and next button size */
+    #testimonial-section .prev, 
+    #testimonial-section .next {
+        right: 0px; 
+        height: 40px;
+        width: 40px;
+    }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+    #testimonial-section {
+        margin-top: 12%;
+    }
+
+    #testimonial-section .role {
+        margin-bottom: 10px;
+    }
+
+    #testimonial-section .testimonial-photo {
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    #testimonial-section .testimonial-navigation {
+        font-size: 10px;
+        padding: 6px;
+    }
+
+    #testimonial-section .prev, 
+    #testimonial-section .next {
+        right: 0px; 
+        height: 25px;
+        width: 25px;
+        margin-top: 15%;
+    }
+}
+/* testimonial Display section css END */
